@@ -1,0 +1,31 @@
+<div class="container">
+  <a [routerLink]="['']" class="back-link">
+    << VOLTAR
+  </a>
+  <div class="content__cover">
+    <img
+      src={{photoCover}}
+      width="100%"
+    />
+  </div>
+
+  <main class="content">
+    <div class="content__title">
+      <h1>
+        {{title}}
+      </h1>
+    </div>
+
+    <div class="content__description">
+      <p>
+        {{description}}
+      </p>
+    </div>
+
+    <div class="content__text">
+      <p *ngFor="let item of text">
+        {{item}}
+      </p>
+    </div>
+  </main>
+</div>

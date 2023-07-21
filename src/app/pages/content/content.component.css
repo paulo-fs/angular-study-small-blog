@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.back-link {
+  color: rgb(123, 212, 242);
+}
+
+.content__title h1{
+  font-size: 3rem;
+}
+
+.content {
+  padding: .5rem;
+  margin-top: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content__description p {
+  margin-top: 1rem;
+}
+
+.content__text {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.content__text p {
+  color: gray;
+}
